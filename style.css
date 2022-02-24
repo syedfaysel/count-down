@@ -3,35 +3,40 @@
 
 
 *{
-    margin: auto;
+
     font-family: 'Lato','Poppins', sans-serif;
 }
 h2{
-    font-size: 5rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
 .coming-soon{
     min-width: 100vh;
     display: flex;
-
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .countdown{
     display: flex;
-    margin-top: 20px;
-
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
 }
-
 .time-container{
-    background-color: bisque;
+    font-size: 1rem;
+    font-weight: bold;
+    
 }
-
 #day,#hour,#minute,#second{
-    height: 50px;
-    width: 70px;
+    font-size:2rem;
+    font-weight: bold;
+    margin: 5px;
+    color: #FF725E;
 }
 
 #image{
-    height: 100px;
-    width: 100px;
+    height: 400px;
+    width: 350px;
 }
