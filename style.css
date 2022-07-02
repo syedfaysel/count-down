@@ -10,6 +10,9 @@ h2{
     font-size: 2rem;
     font-weight: bold;
 }
+.title{
+    text-align: center;
+}
 
 .coming-soon{
     min-width: 100vh;
@@ -37,9 +40,10 @@ h2{
 }
 
 #image{
-    height: 400px;
-    width: 350px;
+    height: 200px;
+    width: 150px;
 }
+
 
 footer{
     align-items: center;
